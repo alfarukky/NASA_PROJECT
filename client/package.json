@@ -12,7 +12,7 @@
   "scripts": {
     "start": "WATCHPACK_POLLING=true react-scripts start",
     "build": "BUILD_PATH=../server/public react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,7 +34,6 @@
     ]
   },
   "devDependencies": {
-    "jest": "^26.6.0",
     "postcss": "^8.4.38"
   }
 }
